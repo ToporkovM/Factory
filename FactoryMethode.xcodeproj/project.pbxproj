@@ -15,6 +15,11 @@
 		0487792A23B3ADAB00B69634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0487792823B3ADAB00B69634 /* LaunchScreen.storyboard */; };
 		0487793523B3ADAC00B69634 /* FactoryMethodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487793423B3ADAC00B69634 /* FactoryMethodeTests.swift */; };
 		0487794023B3ADAC00B69634 /* FactoryMethodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487793F23B3ADAC00B69634 /* FactoryMethodeUITests.swift */; };
+		0487794E23B3AE0700B69634 /* Logistik.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487794D23B3AE0700B69634 /* Logistik.swift */; };
+		0487795023B3B01100B69634 /* Auto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487794F23B3B01100B69634 /* Auto.swift */; };
+		0487795223B3B14100B69634 /* Airplane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487795123B3B14100B69634 /* Airplane.swift */; };
+		0487795523B3B30700B69634 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487795423B3B30700B69634 /* Factory.swift */; };
+		0487795723B3BD2E00B69634 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487795623B3BD2E00B69634 /* Ship.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		0487793B23B3ADAC00B69634 /* FactoryMethodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryMethodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0487793F23B3ADAC00B69634 /* FactoryMethodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodeUITests.swift; sourceTree = "<group>"; };
 		0487794123B3ADAC00B69634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0487794D23B3AE0700B69634 /* Logistik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logistik.swift; sourceTree = "<group>"; };
+		0487794F23B3B01100B69634 /* Auto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auto.swift; sourceTree = "<group>"; };
+		0487795123B3B14100B69634 /* Airplane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airplane.swift; sourceTree = "<group>"; };
+		0487795423B3B30700B69634 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		0487795623B3BD2E00B69634 /* Ship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,8 @@
 				0487791D23B3ADA300B69634 /* AppDelegate.swift */,
 				0487791F23B3ADA300B69634 /* SceneDelegate.swift */,
 				0487792123B3ADA300B69634 /* ViewController.swift */,
+				0487795423B3B30700B69634 /* Factory.swift */,
+				0487795323B3B24F00B69634 /* Logistik */,
 				0487792323B3ADA300B69634 /* Main.storyboard */,
 				0487792623B3ADAB00B69634 /* Assets.xcassets */,
 				0487792823B3ADAB00B69634 /* LaunchScreen.storyboard */,
@@ -126,6 +138,17 @@
 				0487794123B3ADAC00B69634 /* Info.plist */,
 			);
 			path = FactoryMethodeUITests;
+			sourceTree = "<group>";
+		};
+		0487795323B3B24F00B69634 /* Logistik */ = {
+			isa = PBXGroup;
+			children = (
+				0487794D23B3AE0700B69634 /* Logistik.swift */,
+				0487794F23B3B01100B69634 /* Auto.swift */,
+				0487795623B3BD2E00B69634 /* Ship.swift */,
+				0487795123B3B14100B69634 /* Airplane.swift */,
+			);
+			path = Logistik;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0487795023B3B01100B69634 /* Auto.swift in Sources */,
+				0487795723B3BD2E00B69634 /* Ship.swift in Sources */,
 				0487792223B3ADA300B69634 /* ViewController.swift in Sources */,
 				0487791E23B3ADA300B69634 /* AppDelegate.swift in Sources */,
 				0487792023B3ADA300B69634 /* SceneDelegate.swift in Sources */,
+				0487794E23B3AE0700B69634 /* Logistik.swift in Sources */,
+				0487795223B3B14100B69634 /* Airplane.swift in Sources */,
+				0487795523B3B30700B69634 /* Factory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
